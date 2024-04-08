@@ -33,7 +33,6 @@ function App() {
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
       <BunchComponents />
-      <FlowApp />
 
       <hr />
       <div style={{ width: "100vw", height: "100vh" }}>
