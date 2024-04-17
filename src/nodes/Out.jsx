@@ -13,8 +13,8 @@ export default function Out({ id, data }) {
   const { isRunning, toggleAudio } = useStore(selector, shallow);
 
   return (
-    <div className={tw("rounded-md bg-white shadow-xl px-4 py-2")}>
-      <Handle className={tw("w-2 h-2")} type="target" position="top" />
+    <div className={"rounded-md bg-white shadow-xl px-4 py-2"}>
+      <Handle className={"w-2 h-2"} type="target" position="top" />
 
       <button onClick={toggleAudio}>
         {isRunning ? (

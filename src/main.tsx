@@ -8,6 +8,7 @@ import "./index.css";
 import "primeicons/primeicons.css";
 import "./App.css";
 
+
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <PrimeReactProvider value={{ unstyled: false }}>

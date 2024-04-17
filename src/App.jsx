@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import { Button } from "primereact/button";
 import { InputText } from "primereact/inputtext";
-import BunchComponents from './BunchComponents';
+import BunchComponents from "./components/BunchComponents";
 import FlowApp from "./FlowApp";
 
 
@@ -35,7 +35,7 @@ function App() {
       <BunchComponents />
 
       <hr />
-      <div style={{ width: "100vw", height: "100vh" }}>
+      <div style={{ width: "100%", height: "1000px" }}>
         <FlowApp />
       </div>
     </>
