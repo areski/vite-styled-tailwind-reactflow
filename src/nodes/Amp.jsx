@@ -1,7 +1,6 @@
 import React from "react";
 import { Handle } from "reactflow";
 import { shallow } from "zustand/shallow";
-import { tw } from "twind";
 import { useStore } from "../store";
 
 const selector = (id) => (store) => ({

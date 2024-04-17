@@ -2,7 +2,7 @@ import React from "react";
 import { Handle } from "reactflow";
 import { shallow } from "zustand/shallow";
 import { useStore } from "../store";
-import { tw } from "twind";
+
 
 const selector = (store) => ({
   isRunning: store.isRunning,

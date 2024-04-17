@@ -9,7 +9,7 @@ import "primeicons/primeicons.css";
 import "./App.css";
 
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById("flow-editor") as HTMLElement).render(
   <React.StrictMode>
     <PrimeReactProvider value={{ unstyled: false }}>
       <App />
